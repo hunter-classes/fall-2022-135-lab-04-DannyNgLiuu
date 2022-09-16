@@ -19,4 +19,20 @@ int main() {
     std::cout << "upper(5):\n";
     std::cout << result;
     std::cout << "\n------------------\n";
+    result = trapezoid(12,5);
+    std::cout << "trapezoid(12,5):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = trapezoid(12,6);
+    std::cout << "trapezoid(12,6):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = trapezoid(12,7);
+    std::cout << "trapezoid(12,7):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
+    result = checkerboard3x3(16,11);
+    std::cout << "checkerboard3x3(16,11):\n";
+    std::cout << result;
+    std::cout << "\n------------------\n";
 }
